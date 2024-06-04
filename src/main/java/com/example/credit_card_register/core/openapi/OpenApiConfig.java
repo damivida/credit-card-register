@@ -32,11 +32,6 @@ public class OpenApiConfig {
     }
 
     @Bean
-    public GroupedOpenApi groupAll() {
-        return GroupedOpenApi.builder().group("Credit Card Register API").pathsToMatch("/api/v1/**").build();
-    }
-
-    @Bean
     public GroupedOpenApi userCardRegisterApi() {
         return GroupedOpenApi.builder().group("Card Register API").pathsToMatch("/api/v1/user-card-register/**").build();
     }

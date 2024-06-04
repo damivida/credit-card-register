@@ -2,7 +2,7 @@
 
 ### Overview
 
-The application is designed with two main components and two APIs: `card process` and `card register` to simulate card creation process.
+The application is designed with two main components and two APIs: `Card process` and `card register` to simulate card creation process.
 
 1. **Card Register API**:
     - This API is used to record user information necessary for issuing a card.
@@ -27,3 +27,5 @@ mvn spring-boot:run
 ### Access API documentation and DB
 - Swagger UI: http://localhost:8080/swagger-ui/index.html
 - For H2 Console: http://localhost:8080/h2-console
+  - username: sa
+  - Password: password
