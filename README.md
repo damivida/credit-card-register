@@ -27,5 +27,7 @@ mvn spring-boot:run
 ### Access API documentation and DB
 - Swagger UI: http://localhost:8080/swagger-ui/index.html
 - For H2 Console: http://localhost:8080/h2-console
-  - username: sa
+  - JDBC URL: jdbc:h2:mem:cardregisterdb
+  - Username: sa
   - Password: password
+ 
